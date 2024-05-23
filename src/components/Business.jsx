@@ -1,18 +1,18 @@
 import React from "react";
 
-function Business() {
+function Business(props) {
     return (
         <li>
             <article>
-                <img src="" alt="" />
+                <img src={props.img} alt="Randomly generated generic restaurant image" />
                 <div>
-                    <h3>Restaurant Name</h3>
+                    <h3>{props.name}</h3>
                     <div>
-                        <p>Food Category</p>
-                        <span>Stars</span>
-                        <span>Reviews</span>
+                        <p>{props.category}</p>
+                        <span>{props.stars}</span>
+                        <span>{props.reviews}</span>
                     </div>
-                    <p>123 Fake St, City, State Zip</p>
+                    <p>{props.address}</p>
                 </div>
             </article>
         </li>

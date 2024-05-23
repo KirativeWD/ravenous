@@ -1,11 +1,9 @@
-import './App.css'
+import React from 'react'
+import BusinessList from './components/BusinessList'
 
 function App() {
 
-  return (
-    <>
-    </>
-  )
+  return <BusinessList />
 }
 
 export default App

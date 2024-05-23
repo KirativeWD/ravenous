@@ -1,6 +1,6 @@
 // Business data used for Ravenous Part 1
 
-const businessData = [
+export const businessData = [
     {
         img: 'https://source.unsplash.com/random/?Restaurant&1',
         name: 'Generic Name',
