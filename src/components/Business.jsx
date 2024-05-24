@@ -1,19 +1,15 @@
 import React from "react";
+import "./css/Business.css";
 
 function Business(props) {
     return (
         <li>
             <article>
-                <img src={props.img} alt="Randomly generated generic restaurant image" />
-                <div>
-                    <h3>{props.name}</h3>
-                    <div>
-                        <p>{props.category}</p>
-                        <span>{props.stars}</span>
-                        <span>{props.reviews}</span>
-                    </div>
-                    <p>{props.address}</p>
-                </div>
+                <img src={props.img} alt={props.alt} />
+                <h3>{props.name}</h3>
+                <p className="business-category">{props.category}</p>
+                <span className="customer-reviews">{props.stars} Stars ({props.reviews} Customer Reviews)</span>
+                <p>{props.address}</p>
             </article>
         </li>
     )

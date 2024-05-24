@@ -1,0 +1,18 @@
+.business-list-wrapper {
+    margin-block: clamp(10.75rem, calc(12lvh + 1rem), 3rem);
+    padding-inline: 5%;
+}
+
+ul {
+    max-width: 85em;
+    margin-inline: auto;
+    gap: 5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media (width <=61.125em) {
+    ul {
+        gap: 3rem;
+    }
+}

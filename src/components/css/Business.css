@@ -1,0 +1,17 @@
+article {
+    max-width: 25em;
+}
+
+img {
+    margin-bottom: 1.25rem;
+}
+
+.business-category {
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+
+.customer-reviews {
+    display: block;
+    margin-block: 0.5rem 1rem
+}
