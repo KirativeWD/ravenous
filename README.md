@@ -1,9 +1,9 @@
 # Codecademy - Ravenous Project
 
-Ravenous Part 1: Creating Project & Components (Started)
-Ravenous Part 2: Passing Information (Not Started)
-Ravenous Part 3: Setting the Search Bar's State (Not started)
-Ravenous Part 4: Interacting with the Yelp API (Not started)
+ * Ravenous Part 1: Creating Project & Components (Completed)
+ * Ravenous Part 2: Passing Information (Not Started)
+ * Ravenous Part 3: Setting the Search Bar's State (Not started)
+ * Ravenous Part 4: Interacting with the Yelp API (Not started)
 
 ## Project Requirements
 
@@ -30,10 +30,17 @@ Ravenous Part 4: Interacting with the Yelp API (Not started)
 ## Authors
 
 Kira Tantari
-[KirativeDesigns](kirativedesigns.com)
+ * [KirativeDesigns](kirativedesigns.com)
 
 ## Version History
 
+* 0.2
+    * Added Business Component
+    * Added BusinessList Component
+    * Added SearchBar Component
+    * Added businessData.js
+    * Updated App.jsx for hero, footer, and component rendering
+    * Added styling for components an overall design
 * 0.1
     * Initial Commit
 
