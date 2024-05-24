@@ -67,3 +67,24 @@ h3 {
     font-size: clamp(1.75rem, 3vw + 0.25rem, 2rem);
     font-family: var(--ff-heading);
 }
+
+footer {
+    text-align: center;
+    padding-block: 2rem;
+    background: hsl(0, 0%, 87.5%)
+}
+
+a {
+    color: var(--clr-brand);
+    transition: all 100ms ease-in-out;
+}
+
+a:is(:hover, :focus-visible) {
+    text-decoration: none;
+}
+
+a:is(:focus-visible) {
+    outline: 2px solid var(--clr-brand);
+    outline-offset: 2px;
+    border-radius: 2px;
+}

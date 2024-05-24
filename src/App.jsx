@@ -16,6 +16,9 @@ function App() {
         </section>
         <BusinessList />
       </main>
+      <footer>
+        <p><a href="codecademy.com" target="_blank">Codecademy</a> project presented by <a href="kirativedesigns.com" target="_blank">Kirative Designs</a></p>
+      </footer>
     </>
   )
 }
