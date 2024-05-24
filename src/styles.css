@@ -1,19 +1,19 @@
 @font-face {
     font-family: "Cormorant";
     font-weight: 800;
-    src: url(../public/fonts/CormorantGaramond-Bold.woff2) format("woff2"), url(../public/fonts/CormorantGaramond-Bold.woff) format("woff");
+    src: url(./fonts/CormorantGaramond-Bold.woff2) format("woff2"), url(./fonts/CormorantGaramond-Bold.woff) format("woff");
 }
 
 @font-face {
     font-family: "Cormorant";
     font-weight: 400;
-    src: url(../public/fonts/CormorantGaramond-Regular.woff2) format("woff2"), url(../public/fonts/CormorantGaramond-Regular.woff) format("woff");
+    src: url(./fonts/CormorantGaramond-Regular.woff2) format("woff2"), url(./fonts/CormorantGaramond-Regular.woff) format("woff");
 }
 
 @font-face {
     font-family: "Merriweather-Sans";
     font-weight: 100;
-    src: url(../public/fonts/MerriweatherSans-Light.woff2) format("woff2"), url(../public/fonts/MerriweatherSans-Light.woff) format("woff");
+    src: url(./fonts/MerriweatherSans-Light.woff2) format("woff2"), url(./fonts/MerriweatherSans-Light.woff) format("woff");
 }
 
 :root {
@@ -27,30 +27,22 @@
     --ff-heading: "Cormorant", serif;
 }
 
+/* UTILITY */
+.flex {
+    display: flex;
+}
+
 body {
     font-family: var(--ff-body);
     color: var(--clr-neutral-800);
 }
 
 .hero {
-    padding-block: 5.5rem;
+    padding: 5.5rem calc(3vw + 0.25rem);
     text-align: center;
-    background: url(https://images.unsplash.com/photo-1488992783499-418eb1f62d08?q=80&w=1978&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) center -33rem / cover;
+    background: url('./images/hero-banner.png') center center / cover;
     position: relative;
     isolation: isolate;
-}
-
-.hero::after {
-    content: '';
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    z-index: -1;
-    background: linear-gradient(9deg, black, transparent);
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
 }
 
 header {
@@ -59,12 +51,19 @@ header {
 }
 
 h1 {
-    font-size: 4.5rem;
-    margin-bottom: 1.5rem;
+    font-size: clamp(3rem, 5vw + 1rem, 5.5rem);
+    margin-bottom: clamp(0.5rem, 3vh, 2.5rem);
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: clamp(1.75rem, 3vw + 0.5rem, 2.5rem);
     font-weight: 400;
-    margin-bottom: 5rem;
+    margin-bottom: clamp(1rem, 8lvh + 0.15rem, 5rem);
+}
+
+h3 {
+    font-size: clamp(1.75rem, 3vw + 0.25rem, 2rem);
+    font-family: var(--ff-heading);
 }

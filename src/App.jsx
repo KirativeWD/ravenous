@@ -9,7 +9,7 @@ function App() {
       <main>
         <section className="hero">
           <header>
-            <h1>Feeling...Ravenous?</h1>
+            <h1 className="flex">Feeling...<span>Ravenous?</span></h1>
             <h2>Your Next Meal Awaits</h2>
           </header>
           <SearchBar />
