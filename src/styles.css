@@ -1,19 +1,19 @@
 @font-face {
     font-family: "Cormorant";
     font-weight: 800;
-    src: url(./fonts/CormorantGaramond-Bold.woff2) format("woff2"), url(./fonts/CormorantGaramond-Bold.woff) format("woff");
+    src: url(../fonts/CormorantGaramond-Bold.woff2) format("woff2"), url(./fonts/CormorantGaramond-Bold.woff) format("woff");
 }
 
 @font-face {
     font-family: "Cormorant";
     font-weight: 400;
-    src: url(./fonts/CormorantGaramond-Regular.woff2) format("woff2"), url(./fonts/CormorantGaramond-Regular.woff) format("woff");
+    src: url(../fonts/CormorantGaramond-Regular.woff2) format("woff2"), url(./fonts/CormorantGaramond-Regular.woff) format("woff");
 }
 
 @font-face {
     font-family: "Merriweather-Sans";
     font-weight: 100;
-    src: url(./fonts/MerriweatherSans-Light.woff2) format("woff2"), url(./fonts/MerriweatherSans-Light.woff) format("woff");
+    src: url(../fonts/MerriweatherSans-Light.woff2) format("woff2"), url(./fonts/MerriweatherSans-Light.woff) format("woff");
 }
 
 :root {
@@ -40,7 +40,7 @@ body {
 .hero {
     padding: 5.5rem calc(3vw + 0.25rem);
     text-align: center;
-    background: url('./images/hero-banner.png') center center / cover;
+    background: url('../images/hero-banner.png') center center / cover;
     position: relative;
     isolation: isolate;
 }
