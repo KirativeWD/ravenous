@@ -6,8 +6,16 @@ function App() {
 
   return (
     <>
-      <SearchBar />
-      <BusinessList />
+      <main>
+        <section className="hero">
+          <header>
+            <h1>Feeling...Ravenous?</h1>
+            <h2>Your Next Meal Awaits</h2>
+          </header>
+          <SearchBar />
+        </section>
+        <BusinessList />
+      </main>
     </>
   )
 }
