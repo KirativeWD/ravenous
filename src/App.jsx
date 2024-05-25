@@ -1,4 +1,5 @@
 import React from 'react'
+import { businessData } from "./data/businessData";
 import BusinessList from './components/BusinessList'
 import SearchBar from './components/SearchBar'
 
@@ -14,7 +15,7 @@ function App() {
           </header>
           <SearchBar />
         </section>
-        <BusinessList />
+        <BusinessList businessData={businessData} />
       </main>
       <footer>
         <p><a href="https://codecademy.com" target="_blank">Codecademy</a> project presented by <a href="https://kirativedesigns.com" target="_blank">Kirative Designs</a></p>
