@@ -1,7 +1,7 @@
 # Codecademy - Ravenous Project
 
  * Ravenous Part 1: Creating Project & Components (Completed)
- * Ravenous Part 2: Passing Information (Not Started)
+ * Ravenous Part 2: Passing Information (Completed)
  * Ravenous Part 3: Setting the Search Bar's State (Not started)
  * Ravenous Part 4: Interacting with the Yelp API (Not started)
 
@@ -34,6 +34,8 @@ Kira Tantari
 
 ## Version History
 
+* 0.3
+    * Restructured App.jsx, BusinessList.jsx, and Business.jsx to create a top-down information flow
 * 0.2
     * Added Business Component
     * Added BusinessList Component
